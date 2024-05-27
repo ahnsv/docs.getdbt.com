@@ -1,0 +1,370 @@
+repo_name: ahnsv/docs.getdbt.com
+report_id: 710ada2d09cae731c6dc7d6ffb175783
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-27T04:21:00+00:00'
+requested_by: travismarceau
+provider: github
+branch: current
+detected_tools_count: 27
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/docs/learn/load_data.sql
+  detection_source: website/docs/learn/load_data.sql
+  last_updated_by: Claire Carroll
+  last_updated_on: 2020-02-04 21:30:13.000000000 Z
+- name: MobX
+  description: Simple, scalable state management
+  website_url: https://github.com/mobxjs/mobx
+  version: 6.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5302/17475736.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Claire Carroll
+  last_updated_on: 2019-11-28 18:39:24.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/docs/docs/dbt-cloud/dbt-cloud-api/metadata/schema/schema.jsx
+  last_updated_by: Isaac Luxford
+  last_updated_on: 2021-06-29 00:42:01.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 20:01:37.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-09 10:39:17.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-12-15 14:17:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/.github/workflows/add_issue_to_project.yml
+  detection_source: ".github/workflows/add_issue_to_project.yml"
+  last_updated_by: Anna Filippova
+  last_updated_on: 2021-10-12 21:28:44.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package.json
+  detection_source: website/package.json
+  last_updated_by: Claire Carroll
+  last_updated_on: 2019-11-28 18:39:24.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/netlify.toml
+  detection_source: netlify.toml
+  last_updated_by: Jeremy Cohen
+  last_updated_on: 2020-07-28 18:54:52.000000000 Z
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 1.6.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 16:40:37.000000000 Z
+- name: "@svgr/webpack"
+  description: SVGR webpack loader
+  package_url: https://www.npmjs.com/@svgr/webpack
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16411/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 20:01:37.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 16:40:37.000000000 Z
+- name: color
+  description: Color conversion and manipulation with CSS string support
+  package_url: https://www.npmjs.com/color
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Drew Banin
+  last_updated_on: 2020-01-24 23:13:30.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 16:40:37.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 20:01:37.000000000 Z
+- name: fs
+  description: This package name is not currently in use, but was formerly occupied
+    by another package
+  package_url: https://www.npmjs.com/fs
+  version: 0.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Claire Carroll
+  last_updated_on: 2019-11-28 18:39:24.000000000 Z
+- name: gray-matter
+  description: Parse front-matter from a string or file
+  package_url: https://www.npmjs.com/gray-matter
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-18 18:31:56.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-18 14:59:12.000000000 Z
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  version: 0.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 20:01:37.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 16:40:37.000000000 Z
+- name: slugify
+  description: Slugifies a String
+  package_url: https://www.npmjs.com/slugify
+  version: 1.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17389/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-20 18:59:10.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-09 10:39:17.000000000 Z
+- name: svg-inline-loader
+  description: Cleans up and inlines your SVG files into Webpack module
+  package_url: https://www.npmjs.com/svg-inline-loader
+  version: 0.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17354/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 20:01:37.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/ahnsv/docs.getdbt.com/blob/current/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: Jason Karlavige
+  last_updated_on: 2021-10-13 20:01:37.000000000 Z
